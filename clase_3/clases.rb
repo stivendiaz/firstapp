@@ -16,7 +16,7 @@ end
 #Inicializar
 
 class Person2
-    def inicialize(name)
+    def initialize(name)
         p "esto es algo privado"
     end
 end
@@ -67,16 +67,44 @@ class Person5
     end
 end
 
+#nuevo = Person5.new("stiven")
+
+#p nuevo.name
+
+#nuevo.name=("StivenBest")
+
+#p nuevo.name
 
 
 
-nuevo = Person5.new("stiven")
+#METODOS Y ATRIBUTOS DE CLASE
+# como utilizar self: sirve para definir un metodo o variable de clase
 
-p nuevo.name
+# Metodos de clase:
 
-nuevo.name=("StivenBest")
+class Person6
+    def self.metodoDeClase()
+        puts "este es un metodo de clase "
+    end
 
-p nuevo.name
+end
+
+#Variables de clase
+class Person7
+    @@people_count=0
+    def initialize
+        @@people_count+=1
+    end
+    def self.people_count
+        @@people_count
+    end
+
+end
+
+Person7.new
+Person7.new
+Person7.new
+p Person7.people_count
 
 
 
