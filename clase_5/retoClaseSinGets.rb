@@ -4,17 +4,17 @@ class Telefono
         @estado=0
         @historial=[]
     end
-    def llamar
-        puts "ingrese el numero"
-        @numero = gets.chomp
+    def llamar(tel)
+        @numero = tel
         @now = Time.now.to_f
         @estado = 1
-        puts "hola"
-        puts "quieres colgar? y"
-        colgar1 = gets.chomp
-        if(colgar1=="y")
-            @estado=0
-            colgar()
+        puts "Una tecla para colgar"
+        while(colgar1==nil)
+            colgar1 = gets.chomp
+            if(colgar1!=nil)
+                @estado=0
+                colgar()
+            end
         end
     end
     def colgar
@@ -42,11 +42,9 @@ class Celular < Telefono
         super
     end
 
-    def mensaje
-        puts "ingrese el numero"
-        @numero = gets.chomp
-        puts "ingrese el mensaje"
-        @mensaje = gets.chomp
+    def mensaje(tel,msj)
+        @numero = tel
+        @mensaje = msj
         @historial.push({"type"=> "msj","numero"=> "#{@numero}","mensaje"=> "#{@mensaje}"})
     end
 
@@ -60,17 +58,3 @@ class Celular < Telefono
         end
         
     end
-
-
-
-end
-
-a = Celular.new
-
-
-
-a.llamar
-a.mensaje
-
-
-a.mostrarHistorial

@@ -1,0 +1,74 @@
+[{
+    "cod": 1,
+    "hash": [{
+        "codigo": 1,
+        "nombre": "mandinga",
+        "precio": 3500
+    }]
+}, {
+    "cod": 2,
+    "hash": [{
+        "codigo": 2,
+        "nombre": "mandingas",
+        "precio": 5000
+    }, {
+        "codigo": 3,
+        "nombre": "mandingas2",
+        "precio": 52000
+    }]
+}, {
+    "cod": 2,
+    "hash": [{
+        "codigo": 2,
+        "nombre": "mandingas",
+        "precio": 5000
+    }, {
+        "codigo": 3,
+        "nombre": "mandingas2",
+        "precio": 52000
+    }]
+}, {
+    "cod": 2,
+    "hash": [{
+        "codigo": 2,
+        "nombre": "mandingas",
+        "precio": 5000
+    }, {
+        "codigo": 3,
+        "nombre": "mandingas2",
+        "precio": 52000
+    }]
+}, {
+    "cod": 2,
+    "hash": [{
+        "codigo": 2,
+        "nombre": "mandingas",
+        "precio": 5000
+    }, {
+        "codigo": 3,
+        "nombre": "mandingas2",
+        "precio": 52000
+    }]
+}, {
+    "cod": 2,
+    "hash": [{
+        "codigo": 2,
+        "nombre": "mandingas",
+        "precio": 5000
+    }, {
+        "codigo": 3,
+        "nombre": "mandingas2",
+        "precio": 52000
+    }]
+}, {
+    "cod": 2,
+    "hash": [{
+        "codigo": 2,
+        "nombre": "mandingas",
+        "precio": 5000
+    }, {
+        "codigo": 3,
+        "nombre": "mandingas2",
+        "precio": 52000
+    }]
+}]
