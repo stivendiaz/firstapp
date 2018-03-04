@@ -1,0 +1,4 @@
+class Caja
+    ini
+    
+end
