@@ -1,0 +1,8 @@
+<h1>Our places</h1>
+<% 6.times do%>
+<div class="col-md-4">
+<h3><i class="material-icons" style="font-size:48px;color:blue">add_location</i><%=Faker::Address.city %>  <%=Faker::Address.state %></h3>
+<h4><i class="material-icons" style="font-size:48px;color:blue">call</i><%=Faker::PhoneNumber.cell_phone%></h4>
+
+</div>
+<% end%>

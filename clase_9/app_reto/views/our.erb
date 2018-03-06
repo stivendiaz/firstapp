@@ -1,0 +1,9 @@
+
+<h1>Our team</h1>
+<% 6.times do%>
+<div class="col-md-4">
+<h3><%=Faker::Name.name %></h3>
+<h4><%=Faker::Name.title %></h4>
+ <p><b>Personal comentary: </b><%= BetterLorem.p(1, true, true ) %></p>
+</div>
+<% end%>
