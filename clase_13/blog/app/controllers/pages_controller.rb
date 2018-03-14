@@ -3,7 +3,9 @@ class PagesController < ApplicationController
   def home
   end
   def index
-    render layout: "mylayout"
+    #render layout: "mylayout"
+    #render "index2"
+    redirect_to "https://www.facebook.com/"
   end
   def show
   end
